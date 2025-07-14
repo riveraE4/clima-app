@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Clima",
+    "version": "1.0",
+    "description": "Suggests weather-appropriate clothing using AI",
+    "permissions": ["geolocation", "storage"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    },
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "icons": {
+        "48": "icon.png"
+    }
+}
+
